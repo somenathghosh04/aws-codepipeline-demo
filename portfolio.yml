@@ -1,0 +1,18 @@
+AWSTemplateFormatVersion: 2010-09-09
+Description: Creating a Demo portfolio
+
+Parameters:
+  pPortfolioDescription:
+    Type: String
+  pPortfolioName:
+    Type: String
+  pPortfolioProvider:
+    Type: String
+
+Resources:
+  rSCPortfolio:
+    Type: AWS::ServiceCatalog::Portfolio
+    Properties:
+      Description: !Ref pPortfolioDescription
+      DisplayName: !Ref pPortfolioName
+      ProviderName: !Ref pPortfolioProvider

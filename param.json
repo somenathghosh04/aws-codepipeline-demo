@@ -1,0 +1,7 @@
+{
+  "Parameters": {
+    pPortfolioDescription: "Demo Test Portfolio",
+    pPortfolioName: "MyTestPortfolio",
+    pPortfolioProvider: "AW CE Team"
+  }
+}
